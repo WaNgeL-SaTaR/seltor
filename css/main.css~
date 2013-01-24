@@ -1,0 +1,243 @@
+body {
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+/*
+.container {
+    max-width: 1024px;
+}*/
+
+/* navbar */
+
+.navigation {
+    line-height: 26px;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 26px;
+    -webkit-box-shadow: 0px 13px 1px rgba(50, 50, 50, 0.22);
+    -moz-box-shadow: 0px 13px 1px rgba(50, 50, 50, 0.22);
+    box-shadow: 0px 13px 1px rgba(50, 50, 50, 0.22);
+}
+
+.nav-after {
+    line-height: 70px;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 70px;
+    -webkit-box-shadow: 0px 13px 20px rgba(50, 50, 50, 0.22);
+    -moz-box-shadow: 0px 13px 20px rgba(50, 50, 50, 0.22);
+    box-shadow: 0px 13px 20px rgba(50, 50, 50, 0.22);
+}
+
+.town-change {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button-green {
+    background-image: url(img/site/button-green-off.png);
+}
+
+/* main */
+
+.main {
+    margin-top: 13px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.6);
+    -moz-box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.6);
+    box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.6);
+}
+
+.banner-top {
+    margin: 8px 8px 17px 8px;
+}
+
+.emphasis {
+    margin: 0 8px 0 25px;
+}
+
+.border-top-grey {
+    border-top: 7px solid #e8e8e8;
+    padding-top: 10px;
+}
+
+.top-cont1 {
+    margin-left: 25px;
+}
+
+.top-cont {
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.top-cont3 {
+    padding-right: 5px;
+    margin-top: 25px;
+}
+
+.triple {
+    margin: 8px 10px 0 0;
+    border: 1px solid #e8e8e8;
+}
+
+.media-heading {
+    color: #08c;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.media, .media .media {
+    margin-top: 0px;
+}
+
+.dotted-bottom {
+    border-bottom: 1px dotted #e8e8e8;
+}
+
+.dotted-left {
+    padding-left: 15px;
+    border-left: 1px dotted #e8e8e8;
+}
+
+.border-left {
+    border-left: 1px solid #000000;
+    padding-left: 8px;
+
+}
+
+.banner-flash {
+    margin: 15px 25px 15px 25px;
+}
+
+.recom-cont1 {
+    margin-left: 25px;
+}
+
+.recom-cont3 {
+    margin-right: 25px;
+}
+
+.t-zastr {
+    padding-left: 25px;1
+}
+
+/* form */
+.search-form {
+    margin: 21px 16px 0 16px;
+    border: 2px solid #cfcfcf;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+}
+
+.headers {
+    line-height: 40px;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 40px;
+    font-weight: bold;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.headers a {
+    color: #b6b6b6;
+    text-decoration: underline;
+}
+
+.headers a:hover {
+    color: #08c;
+    text-decoration: none;
+}
+
+.form-main {
+    padding: 15px 7px 20px 7px;
+    background-color: #f0f0f0;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.btn-search {
+    font-size: 30px;
+    padding: 18px 24px 18px 24px;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+/* bg-colors */
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-grey {
+    background-color: #fafaf8;
+}
+
+.bg-black {
+    background-color: #19171c;
+}
+
+/* a-colors */
+.a-white {
+    color: #ffffff;
+}
+
+.a-white:hover {
+    color: #ffffff
+}
+.a-black {
+    color: #333333;
+}
+
+.a-yellow {
+    color: #d4b401;
+}
+
+.a-yellow:hover {
+    color: #d4b401;
+}
+
+.a-red {
+    color: #dd3542;
+}
+
+.a-red:hover {
+    color: #dd3542;
+
+}
+
+.a-grey {
+    color: #333333;
+    text-decoration: underline;
+}
+
+/* typography */
+h3 {
+    margin: 0px;
+    line-height: 30px;
+}
+
+.small-font {
+    font-size: 12px;
+}
+
+/* colors */
+.white {
+    color: white;
+}
+
+.black {
+    color: #333333;
+}
+
+.grey {
+    color: #B6B6B6;
+}
