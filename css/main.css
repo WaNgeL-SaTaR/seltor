@@ -44,6 +44,7 @@ body {
 /* main */
 
 .main {
+    padding: 15px;
     margin-top: 13px;
     margin-bottom: 50px;
     background-color: white;
@@ -228,6 +229,14 @@ h3.margin-left {
     color: #B6B6B6;
 }
 
+.red {
+    color: #dd3542;
+}
+
+.green {
+    color: #77bb42;
+}
+
 /* Shadows */
 .tab-content {
     overflow: visible;
@@ -407,6 +416,116 @@ hr.fad:after {
     text-decoration: none;
     color: #08c;
     border-bottom: 1px #08c dashed;
+}
+
+/* Conpany */
+
+.company-header {
+    margin-top: 30px;
+    background-color: #f4f5f7;
+}
+.company-img {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+    padding: 5px;
+    border: 1px solid #f0f0f0;
+    background-color: #ffffff;
+}
+
+.company-info {
+    padding: 20px 10px 0 10px;
+}
+
+.company-phone-pre {
+    color: #939498;
+}
+
+.company-phone {
+    font-size: 18px;
+}
+
+.company-recommended {
+    padding-right: 15px;
+}
+
+.company-cl-recom {
+    line-height: 20px;
+    padding: 8px 10px;
+    background: #77bb42;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.company-cl-recom2 {
+    padding: 8px 10px;
+    margin-left: -5px;
+    background: white;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* tabs */
+
+.filter {
+    font-size: 16px;
+    color: #d0d0d0;
+}
+
+.advertisement-header {
+    border-bottom: 1px dashed #d0d0d0;
+}
+
+.advertisement-vip {
+    padding: 5px;
+}
+
+.advertisement-vip i {
+    color: #f38e00;
+}
+
+.advertisement-vip a.active {
+    color: #08c;
+    text-decoration: none;
+}
+
+.advertisement-vip a {
+    color: #959595;
+    text-decoration: underline;
+}
+
+.adv {
+    border-bottom: 1px dashed #d0d0d0;
+    padding: 10px;
+}
+
+.adv-vip {
+    background: #fcf9b4;
+}
+
+.adv-price {
+    text-decoration: underline;
+}
+
+.adv-img {
+    padding: 5px;
+    background: white;
+    -webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 5px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 5px rgba(50, 50, 50, 0.75);
+}
+
+.adv-hed {
+    padding:  0px  0px  10px 20px;
+    border-bottom: 1px solid #e9e9e9;
 }
 
 /* MIsc */
